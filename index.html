@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadados -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alexandre Amado" />
+    <meta name="description" content="Portifolio Alexandre Amado" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!-- icons bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/imgs/logo.png" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Titulo -->
+    <title>Portifolio | Alexandre Amado Front-end</title>
+  </head>
+  <body>
+    <!-- Barra de navegaçao -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="/imgs/logo.png" alt="logo" width="40" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Sobre mim</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testemunhos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Secção principal -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img class="hero-img" src="/imgs/authorlogo.svg" alt="logo autor" />
+        <h1>Olá, Alexandre</h1>
+        <h2>Desenvolvedor de site WEB, artigos sobre programação</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-image img-fluid"
+          src="/imgs/hero-inferior.svg"
+          alt="logocomputer"
+        />
+      </div>
+    </section>
+
+    <!-- Sobre mim -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Conheça Alexandre!</h2>
+        <p class="seccion-texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ex
+          cupiditate quasi enim, asperiores vero similique repellendus. Corporis
+          laboriosam modi accusamus saepe deleniti rerum tempore eum suscipit
+          expedita qui. Totam. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Aperiam ex cupiditate quasi enim, asperiores vero
+          similique repellendus. Corporis laboriosam modi accusamus saepe
+          deleniti rerum tempore eum suscipit expedita qui. Totam.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia  -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desenvolvedor Web -->
+          <div class="coluna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-title">Desenvolvedor Web</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              architecto esse repellat doloremque quidem nihil. Repellat iure
+              voluptatibus aliquid tempore saepe corrupti cum. Hic, repudiandae
+              excepturi sequi facere explicabo voluptate?
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- Artigos -->
+          <div class="coluna col-12 col-md-4">
+            <i class="bi bi-pen"></i>
+            <p class="experiencia-title">Artigos</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              architecto esse repellat doloremque quidem nihil. Repellat iure
+              voluptatibus aliquid tempore saepe corrupti cum. Hic, repudiandae
+              excepturi sequi facere explicabo voluptate?
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escrever</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudante -->
+          <div class="coluna col-12 col-md-4">
+            <i class="bi bi-journal-code"></i>
+            <p class="experiencia-title">Estudante</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              architecto esse repellat doloremque quidem nihil. Repellat iure
+              voluptatibus aliquid tempore saepe corrupti cum. Hic, repudiandae
+              excepturi sequi facere explicabo voluptate?
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">FreecodeCamp</span>
+              <span class="badge text-bg-primary">Desenvolvedor Web</span>
+              <span class="badge text-bg-primary">NodeJS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projectos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Meus Projectos recentes</h2>
+      <h3 class="seccion-descripcion">Estes são alguns dos meus projectos</h3>
+      <!-- Galeria de Projectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Projecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="/imgs/proyecto1.png" alt="projecto1" />
+              <div class="overlay">
+                <p>Projecto 1</p>
+                <div class="icons-contenedor">
+                  <a href="github.com" target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org" target="_blank">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Projecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="/imgs/proyecto2.png" alt="projecto1" />
+              <div class="overlay">
+                <p>Projecto 1</p>
+                <div class="icons-contenedor">
+                  <a href="github.com" target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org" target="_blank">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Projecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="/imgs/proyecto3.png" alt="projecto1" />
+              <div class="overlay">
+                <p>Projecto 1</p>
+                <div class="icons-contenedor">
+                  <a href="github.com" target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org" target="_blank">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Projecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="/imgs/proyecto4.png" alt="projecto1" />
+              <div class="overlay">
+                <p>Projecto 1</p>
+                <div class="icons-contenedor">
+                  <a href="github.com" target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org" target="_blank">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Projecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="/imgs/proyecto5.png" alt="projecto1" />
+              <div class="overlay">
+                <p>Projecto 1</p>
+                <div class="icons-contenedor">
+                  <a href="github.com" target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org" target="_blank">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Projecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="/imgs/proyecto6.png" alt="projecto1" />
+              <div class="overlay">
+                <p>Projecto 1</p>
+                <div class="icons-contenedor">
+                  <a href="github.com" target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org" target="_blank">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com" target="_blank">
+        <button type="button" class="btn btn-info">
+          Ver mais Projectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Artigos -->
+    <section class="artigos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artigos</h2>
+      <div class="card">
+        <div class="card-header">Mais recentes</div>
+        <ul class="list-group list-group-flush">
+          <a href="#">
+            <li class="list-group-item">
+              Redes de coomputadores e modelo OSI | Alexandre Amado
+            </li></a
+          >
+          <a href="#">
+            <li class="list-group-item">
+              Primeiros passos com linguagens de programação | Alexandre Amado
+            </li></a
+          >
+          <a href="#">
+            <li class="list-group-item">
+              Principais comandos utilizados no Linux | Alexandre Amado
+            </li></a
+          >
+          <a href="#">
+            <li class="list-group-item">
+              Principais comandos utilizados no Linux | Alexandre Amado
+            </li></a
+          >
+          <a href="#">
+            <li class="list-group-item">
+              Principais comandos utilizados no Linux | Alexandre Amado
+            </li></a
+          >
+        </ul>
+      </div>
+      <a href="https://github.com" target="_blank">
+        <button type="button" class="btn btn-info">
+          Mais Artigos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testemunhos -->
+    <section class="testemunhos seccion-clara">
+      <h2 class="seccion-titulo">Testemunhos</h2>
+      <h3 class="seccion-descripcion">Alguns testemunhos</h3>
+
+      <!-- Carrosel -->
+      <div
+        id="testemunhos-carossel"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                src="imgs/cliente1.svg"
+                alt="cliente-Gino"
+                class="testemunhos-image rounded-circle"
+                
+              />
+              <p class="testemunhos-texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+                obcaecati odit nihil nisi fuga in vel autem, quia quibusdam nemo
+                minus magni dolorum vitae expedita cumque doloribus tenetur
+                adipisci voluptate.
+              </p>
+              <div class="testemunhos-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de Projectos em Desenvolvedor Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                src="imgs/cliente2.svg"
+                alt="cliente-Gino"
+                class="testemunhos-image rounded-circle"
+                
+              />
+              <p class="testemunhos-texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+                obcaecati odit nihil nisi fuga in vel autem, quia quibusdam nemo
+                minus magni dolorum vitae expedita cumque doloribus tenetur
+                adipisci voluptate.
+              </p>
+              <div class="testemunhos-info">
+                <p class="cliente">Paula</p>
+                <p class="cargo">Desenvolvedora Web</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                src="imgs/cliente3.svg"
+                alt="cliente-Gino"
+                class="testemunhos-image rounded-circle"
+                
+              />
+              <p class="testemunhos-texto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
+                obcaecati odit nihil nisi fuga in vel autem, quia quibusdam nemo
+                minus magni dolorum vitae expedita cumque doloribus tenetur
+                adipisci voluptate.
+              </p>
+              <div class="testemunhos-info">
+                <p class="cliente">Julio</p>
+                <p class="cargo">Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testemunhos-carossel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testemunhos-carossel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Proximo</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contactos --> 
+    <section class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Falemos
+            </div>
+            <div class="col-12 col-md-4 descricion">
+              Contacte-me para iniciar teu projecto de Desenvolvedor web
+            </div> 
+            <div class="col-12 col-md-4">
+              <a href="mail:alexandremado71@gmail.com">
+                <button type="button">
+                  contacto 
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    
+    <!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img src="/imgs/icono-blanco.svg" alt="" class="footer-icone"> 
+      <p class="footer-text text-center"> Aprendo e cresço todos os dias.<br/> Venha aprender</p>
+      <div class="icones-redes-socias d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-github"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div> 
+      <div class="alex">
+        Criando por Alexandre Amado (2022) &#169
+      </div>
+    </footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
